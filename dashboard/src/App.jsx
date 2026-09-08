@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react'
+ï»¿import { useCallback, useEffect, useState } from 'react'
 import {
   BarChart,
   Bar,
@@ -505,7 +505,7 @@ function App() {
       </main>
 
       <footer className="border-t border-panel-light py-6 text-center text-sm text-muted">
-        StudioPulse Analytics — Powered by ClickHouse, FastAPI, and Gemini
+        StudioPulse Analytics - Powered by ClickHouse, FastAPI, and Gemini
       </footer>
 
     </div>
