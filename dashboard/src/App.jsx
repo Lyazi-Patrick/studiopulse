@@ -148,7 +148,9 @@ function App() {
           </p>
 
           <p className="mt-4 text-sm text-muted">
-            Make sure the FastAPI server is running on port 8000.
+            The API may be waking up from sleep (free hosting can take up
+            to a minute), or may be temporarily unavailable. Try
+            refreshing in a moment.
           </p>
         </div>
       </div>
@@ -505,7 +507,7 @@ function App() {
       </main>
 
       <footer className="border-t border-panel-light py-6 text-center text-sm text-muted">
-        StudioPulse Analytics - Powered by ClickHouse, FastAPI, and Gemini
+        StudioPulse Analytics — Powered by ClickHouse, FastAPI, and Gemini
       </footer>
 
     </div>
