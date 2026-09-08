@@ -1,4 +1,4 @@
-﻿import { useCallback, useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import {
   BarChart,
   Bar,
@@ -14,7 +14,7 @@ import {
   Cell,
 } from 'recharts'
 
-const API = 'http://127.0.0.1:8000'
+const API = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
 
 const tooltipStyle = {
   backgroundColor: '#1f1b29',
@@ -505,7 +505,7 @@ function App() {
       </main>
 
       <footer className="border-t border-panel-light py-6 text-center text-sm text-muted">
-        StudioPulse Analytics — Powered by ClickHouse, FastAPI, and Gemini
+        StudioPulse Analytics � Powered by ClickHouse, FastAPI, and Gemini
       </footer>
 
     </div>
