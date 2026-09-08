@@ -1,0 +1,41 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bebas Neue", sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --color-ink: #15121b;
+  --color-panel: #1f1b29;
+  --color-panel-light: #2a2536;
+  --color-gold: #d9a441;
+  --color-cinered: #b23a48;
+  --color-teal: #3e7c82;
+  --color-cream: #f1e9dc;
+  --color-muted: #a79c8f;
+}
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f1e9dc;
+  background: #15121b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background: #15121b;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #15121b;
+}
+
+#root {
+  min-height: 100vh;
+}

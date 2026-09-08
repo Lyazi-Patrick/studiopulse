@@ -1,0 +1,20 @@
+﻿# Environments
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+agent/.adk/
+
+# Node / frontend
+dashboard/node_modules/
+dashboard/dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
