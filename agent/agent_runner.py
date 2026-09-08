@@ -23,7 +23,7 @@ _runner = Runner(
 _PROMPT = "Find one meaningful audience insight from the StudioPulse data."
 _MAX_ATTEMPTS = 3
 _RETRY_DELAY_SECONDS = 2
-_CACHE_TTL_SECONDS = 300  # 5 minutes
+_CACHE_TTL_SECONDS = 43200 #12hours
 
 
 class AIInsightError(Exception):
