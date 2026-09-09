@@ -178,7 +178,7 @@ differences are small.
 
 - **Dashboard:** https://studiopulse-rouge.vercel.app/
 - **API:** https://studiopulse-api.onrender.com
-- **Demo video:** _add your video link here_
+- **Demo video:** https://youtu.be/YHGvoHTY4WY
 
 ## Tech stack
 
